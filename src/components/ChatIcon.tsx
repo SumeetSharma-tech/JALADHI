@@ -1,6 +1,6 @@
 import React, { useState, FC } from "react";
 import { FaRobot } from "react-icons/fa";
-import ChatBot from "../components/chatBot";
+import ChatBot from "../components/ChatBot";
 
 const ChatIcon: FC = () => {
   const [open, setOpen] = useState<boolean>(false);
